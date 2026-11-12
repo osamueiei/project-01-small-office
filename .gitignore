@@ -1,0 +1,13 @@
+# Local secrets — never commit
+.env
+*.secret
+# Raw configs with real passwords (only the redacted configs/ go to GitHub)
+private/
+# GNS3 project internals
+*.gns3.backup
+project-files/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/

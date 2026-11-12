@@ -1,0 +1,10 @@
+# Project 1 - VPCS hosts (Staff-PC on SW-STAFF, Guest-PC on SW-GUEST)
+# Type these in each VPCS console.
+
+dhcp
+show ip
+ping 192.168.10.1        # Staff-PC gateway
+ping 192.168.10.65       # Guest-PC gateway
+ping 198.51.100.10       # Internet through NAT
+trace 198.51.100.10
+save
